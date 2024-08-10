@@ -1,0 +1,14 @@
+vichack-project/node_modules/
+vichack-project/.expo/
+vichack-project/dist/
+vichack-project/npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+vichack-project/web-build/
+
+# macOS
+vichack-project/.DS_Store
