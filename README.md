@@ -16,7 +16,6 @@ Repository for the VICHACK 2024 hackathon
 4. Written submission
 
 
-<hr>
 
 ## Installation
 1. Clone repo to your machine
