@@ -15,8 +15,19 @@ function LoginBox() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
-    function handleLogin() {
-        // 
+    async function handleLogin() {
+		try{
+			const response = await fetch(`http://127.0.0.1:5000/login?username=${username}&password=${password}`);
+			console.log(response);
+				
+			if(response.status === 200) {
+				// Route to homepage
+			}
+
+		} catch(e){
+			console.log("Failed fetch");
+			console.log(e);
+		}
     }
 
     return (
